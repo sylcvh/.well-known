@@ -8,6 +8,7 @@
       :root {
         --bg: #ffffff;
         --text: #1f2328;
+        --accent: #ebeef1;
         --link: #0969da;
         --link-hover: #0550ae;
       }
@@ -16,6 +17,7 @@
         :root {
           --bg: #0d1117;
           --text: #c9d1d9;
+          --accent: #21262d;
           --link: #58a6ff;
           --link-hover: #1f6feb;
         }
@@ -34,45 +36,52 @@
       }
 
       .container {
-        max-width: 420px;
+        max-width: 480px;
         padding: 2rem;
       }
 
       img {
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
         border-radius: 50%;
-        border: 4px solid var(--text);
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.8rem;
+        border: 4px solid var(--accent);
       }
 
       h1 {
         margin: 0 0 0.5rem;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         font-weight: 600;
       }
 
       p {
-        margin: 0.5rem 0;
-        font-size: 1.1rem;
-        opacity: 0.9;
+        margin: 0.8rem 0;
+        font-size: 1.15rem;
+        opacity: 0.88;
       }
 
       .links {
-        margin-top: 2rem;
+        margin-top: 2.5rem;
       }
 
       .links a {
         display: inline-block;
-        margin: 0 1rem;
+        margin: 0 0.8rem;
         color: var(--link);
         text-decoration: none;
-        font-size: 1.1rem;
+        font-size: 1.15rem;
+        font-weight: 500;
         transition: color 0.2s;
       }
 
       .links a:hover {
         color: var(--link-hover);
+      }
+
+      .note {
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        opacity: 0.7;
       }
     </style>
   </head>
@@ -80,12 +89,16 @@
     <div class="container">
       <img src="https://avatars.githubusercontent.com/u/112990173?v=4" alt="sylcvh" />
       <h1>sylcvh</h1>
-      <p>Minimal personal site hosted on GitHub Pages.</p>
-      <p>This domain is linked to my Discord profile.</p>
+      <p>Minimal personal page</p>
+      <p>This domain is connected to my Discord profile via GitHub Pages.</p>
 
       <div class="links">
         <a href="https://github.com/sylcvh">GitHub</a>
-        <!-- Add more links here in the future if needed -->
+        <!-- Add more links later if you want, e.g. <a href="https://x.com/yourhandle">X</a> -->
+      </div>
+
+      <div class="note">
+        https://sylcvh.github.io/.well-known/
       </div>
     </div>
   </body>
