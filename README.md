@@ -1,26 +1,39 @@
-# Linking a GitHub Pages Domain to Discord Connections
+# 🔗 Linking a GitHub Pages Domain to Discord Connections
 
-Add your domain to your Discord connections to showcase it on your profile.
+**Showcase your custom domain directly on your Discord profile!**  
+Verify ownership using the **HTTPS (file method)** with a simple `.well-known` repository.
 
-We will verify it using **HTTPS (file method)**.
+### Step-by-Step Guide 🚀
 
-### Step-by-Step Guide
+1. Open Discord and click the **gear icon** next to your username to open **User Settings**.  
+2. In the sidebar, select **Connections**.  
+3. Click the **domain icon** (🌐), enter your GitHub Pages domain, and click **Next**.  
+4. Choose **Verify using HTTPS**.  
+5. Copy the provided verification text (e.g., `dh=123456abc`).  
 
-1. Open Discord and navigate to your user settings by clicking on the gear icon next to your username.  
-2. In the settings menu, select **Connections**.  
-3. Click the **domain icon**; a pop-up will appear. Enter your GitHub Pages domain name.  
-4. Click on **Next**, then select **Verify using HTTPS**.  
-5. Copy the content provided there (something like `dh=123456abc`).  
-   **DON'T CLOSE THE POP-UP** — leave it open until verification is complete!  
-6. [Fork this repository](https://github.com/sylcvh/.well-known/fork) (you can also create a new repository if preferred).
+   > [!WARNING]  
+   > **Do not close the pop-up!** Keep it open until verification is complete.
 
-> [!IMPORTANT]
-> Do not change the repository name; keep it exactly as **.well-known**.
+6. [Fork this repository](https://github.com/sylcvh/.well-known/fork)  
+   *(Alternatively, create a new repository if you prefer.)*
 
-7. Edit the `discord` file in the root of the repository and replace its content with the text you copied in step 5. Commit the changes.  
-8. Go to **repository settings** → **Pages** and enable GitHub Pages for your forked repository (set the source to the `main` branch and `/ (root)` folder).  
-9. Return to the Discord pop-up and click the **Verify** button. The domain will be added to your Discord profile!
+> [!IMPORTANT]  
+> **Do not change the repository name** — it must remain exactly **`.well-known`**.
+
+7. In the root of the repository:  
+   - Edit the file named **`discord`**  
+   - Replace its entire content with the text you copied in step 5  
+   - Commit the changes (e.g., with message "Add Discord verification")
+
+8. Go to **Settings → Pages** in your repository:  
+   - Under **Branch**, select the `main` branch (or `master`) and `/ (root)` folder  
+   - Click **Save**  
+   GitHub Pages will deploy automatically.
+
+9. Return to the Discord pop-up and click **Verify**.  
+   Your domain should now appear on your profile! 🎉
 
 ---
 
-If this guide was helpful, please consider **starring** this repository. Thank you! ⭐
+**Enjoy your new connected domain!**  
+If this guide was helpful, please consider **starring ⭐** the repository. Thank you!
