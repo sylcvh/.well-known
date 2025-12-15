@@ -11,14 +11,14 @@ Verify ownership using the **HTTPS (file method)** with a simple `.well-known` r
 4. Choose **Verify using HTTPS**.  
 5. Copy the provided verification text (e.g., `dh=123456abc`).  
 
-   > [!IMPORTANT]  
-   > **Do not close the pop-up!** Keep it open until verification is complete.
+> [!WARNING]  
+> **Do not close the pop-up!** Keep it open until verification is complete.
 
 6. [Fork this repository](https://github.com/sylcvh/.well-known/fork)  
    *(Alternatively, create a new repository if you prefer.)*
 
-   > [!IMPORTANT]  
-   > **Do not change the repository name** — it must remain exactly **`.well-known`**.
+> [!IMPORTANT]  
+> **Do not change the repository name** — it must remain exactly **`.well-known`**.
 
 7. In the root of the repository:  
    - Edit the file named **`discord`**  
