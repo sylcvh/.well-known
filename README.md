@@ -1,6 +1,5 @@
 # 🔗 Linking a GitHub Pages Domain to Discord Connections
 
-**Showcase your custom domain directly on your Discord profile!**  
 Verify ownership using the **HTTPS (file method)** with a simple `.well-known` repository.
 
 ### Step-by-Step Guide 🚀
@@ -24,7 +23,6 @@ Verify ownership using the **HTTPS (file method)** with a simple `.well-known` r
    - Edit the file named **`discord`**  
    - Replace its entire content with the text you copied in step 5  
    - Commit the changes  
-     *(Suggested commit message: "Add Discord verification")*
 
 8. Go to **Settings → Pages** in your repository:  
    - Under **Branch**, select the `main` branch (or `master`) and `/ (root)` folder  
@@ -36,5 +34,4 @@ Verify ownership using the **HTTPS (file method)** with a simple `.well-known` r
 
 ---
 
-**Enjoy your new connected domain!**  
 If this guide was helpful, please consider **starring ⭐** the repository. Thank you!
