@@ -23,7 +23,8 @@ Verify ownership using the **HTTPS (file method)** with a simple `.well-known` r
 7. In the root of the repository:  
    - Edit the file named **`discord`**  
    - Replace its entire content with the text you copied in step 5  
-   - Commit the changes (e.g., with message "Add Discord verification")
+   - Commit the changes  
+     *(Suggested commit message: "Add Discord verification")*
 
 8. Go to **Settings → Pages** in your repository:  
    - Under **Branch**, select the `main` branch (or `master`) and `/ (root)` folder  
