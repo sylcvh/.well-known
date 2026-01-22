@@ -1,4 +1,4 @@
-```# 🔗 Linking a GitHub Pages Domain to Discord Connections
+# 🔗 Linking a GitHub Pages Domain to Discord Connections
 
 Verify ownership using the **HTTPS (file method)** with a simple `.well-known` repository.
 
@@ -34,4 +34,4 @@ Verify ownership using the **HTTPS (file method)** with a simple `.well-known` r
 
 ---
 
-If this guide was helpful, please consider **starring ⭐** the repository. Thank you!```
+If this guide was helpful, please consider **starring ⭐** the repository. Thank you!
